@@ -28,6 +28,6 @@ public class MainFrame extends JFrame{
 		setVisible(true);
 				
 		//Resizable to false
-		setResizable(false);
+		//setResizable(false);
 	}
 }

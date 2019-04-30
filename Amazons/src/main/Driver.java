@@ -16,8 +16,9 @@ public class Driver {
 		int width = 800, height = 600;
 		
 		MainFrame mainFrame = new MainFrame(width,height+40);
-		Board board = new Board(6,width,height,50,50);
+		Board board = new Board(8,width,height,50,50);
 		mainFrame.add(board);
+		
 		boolean running = true;
 		//board.movePieceTest();
 		board.setBackground(Color.GRAY);
